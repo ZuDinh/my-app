@@ -1,0 +1,2 @@
+#inclue<stdio.h>
+printf("hello world");
