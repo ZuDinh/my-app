@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Build app
-RUN g++ -o myapp main.cpp
+RUN g++ -o myapp hello.cpp
 
 # Chạy app khi container khởi động
 CMD ["./myapp"]
